@@ -13,10 +13,10 @@ function CompanyPage(props) {
       
     <View>
       <View style={{marginTop:20, width:150}}>
-      <Button  color = "#000080" style={{fontSize:30}} onPress={props.navigation.navigate("CompanyProfile")}  title="Profile"></Button>
+      <Button  color = "#000080" style={{fontSize:30}} onPress={()=>props.navigation.navigate("CompanyProfile")}  title="Profile"></Button>
       </View>
       <View style={{marginTop:20, width:150}}>
-      <Button  color = "#000080" style={{fontSize:30}} onPress={props.navigation.navigate("StudentInfo")} title="Students Info"></Button>
+      <Button  color = "#000080" style={{fontSize:30}} onPress={()=>props.navigation.navigate("StudentInfo")} title="Students Info"></Button>
       </View>
     </View>
     
